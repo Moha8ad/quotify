@@ -1,0 +1,76 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.hover-scale {
+    transition: transform 0.25s ease-out;   
+
+    &:hover {
+    transform: scale(1.03);
+    }
+}
+
+.hover-scale-change {
+    transition: transform 0.25s ease-out;
+ 
+    &:hover {
+    transform: scale(1.20);
+    }
+
+    :active {
+    color: rgb(255, 255, 255);
+    }
+}
+
+.hover-rotate {
+    transition: transform 0.25s ease-out;
+    
+    &:hover {
+    transform: rotate(40deg);
+    }
+
+    &:active {
+    transform: rotate(100deg);
+    }
+}
+
+.box-animation {
+
+    &:active {
+          animation: boxAnimation 1s linear 0s 1 normal none;
+    }
+}
+
+@keyframes boxAnimation {
+    0% {
+      opacity: 0.8;
+    }
+  
+    100% {
+      opacity: 1;
+    }
+}
+
+.auth-img-library-animation {
+    transition: all 1s ease-in-out;
+
+    filter: grayscale(90%);
+
+    &:hover {
+          filter: grayscale(0%);
+    }
+
+    &:active {
+          filter: grayscale(50%)
+    }
+}
+
+
+.auth-name-library-animation {
+
+    filter: grayscale(50%);
+
+    &:hover {
+          filter: grayscale(0%);
+    }
+}

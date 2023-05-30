@@ -1,0 +1,12 @@
+.qt-footer { 
+    background-color: rgba(18, 18, 18, 0.98);
+    border-top:  1px solid rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Quicksand', 'Open Sans Condensed', Georgia, Times, 'Times New Roman', serif;
+}
+
+@media only screen and (min-width: 768px) {
+    .qt-footer {
+        height: 10vh;
+    }
+  }

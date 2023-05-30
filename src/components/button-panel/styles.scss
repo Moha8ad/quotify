@@ -1,0 +1,43 @@
+#to-show {
+  color: rgba(255, 255, 255, 0);
+}
+#to-hover:hover > #to-show {
+  color: rgba(255, 255, 255, 0.6);
+
+  &:hover {
+    transform: scale(1.1);
+    color: rgb(255, 56, 56);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0);
+  }
+}
+
+.hover-change > span {
+  cursor: pointer;
+  transition: transform 0.25s ease-out;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  &:hover {
+    transform: scale(1.1);
+    color: rgb(255, 255, 255);
+  }
+
+  &:active {
+    color: rgba(255, 255, 255, 0);
+  }
+}
+
+a:link {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
+
+a:active {
+  color: rgba(255, 105, 180, 0);
+}

@@ -1,0 +1,20 @@
+.qt-page-liked {
+    background-size: 180% 280%;
+    background-position: top right;
+    background-image: 
+    linear-gradient(155deg, rgb(0, 0, 0, 0) 17.9%, rgba(0, 0, 0, 0.1) 0%, rgb(0, 0, 0, 0) 18.1%),
+
+    linear-gradient(155deg, rgb(0, 0, 0, 0) 18%, rgba(0, 0, 0, 0.1) 0%, rgb(0, 0, 0, 0) 19%),
+    linear-gradient(155deg, rgb(0, 0, 0, 0) 18%, rgba(0, 0, 0, 0.1) 0%, rgb(0, 0, 0, 0) 21%),
+
+   
+    linear-gradient(114deg, rgb(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.1) 0%,  rgb(0, 0, 0, 0) 62% ),
+    linear-gradient(114deg, rgb(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.1) 0%,  rgb(0, 0, 0, 0) 65% ),
+    linear-gradient(114deg, rgb(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.2) 0%,  rgb(0, 0, 0, 0) 68% ),
+    
+    linear-gradient(155deg, rgb(60, 80, 130) 18%, rgba(0, 0, 0, 0) 0%),
+    linear-gradient(132deg, rgb(191, 208, 255) 40%, rgba(0, 0, 0, 0) 0%),
+    linear-gradient(114deg, rgb(115, 152, 255, 0.7) 20%, rgba(69, 113, 231, 0.8) 60%, rgba(0, 0, 0, 0) 0%),
+    linear-gradient(114deg, rgba(0, 0, 0, 0) 60%, rgb(152, 166, 203) 0%)
+    ;
+}

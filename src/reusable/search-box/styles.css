@@ -1,0 +1,12 @@
+.search-icon {
+  position:relative;
+  left:30px;
+  align-self: center;
+  z-index:999;
+  color: rgb(255, 255, 255);
+}
+
+.input-box {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+  border-radius: 30px;
+}

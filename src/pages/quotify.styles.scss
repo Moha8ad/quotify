@@ -1,0 +1,15 @@
+.qt-main {
+  height: 100vh;
+  font-family: "Quicksand", "Open Sans Condensed", Georgia, Times,
+    "Times New Roman", serif;
+  font-size: 1rem;
+  background-color: rgb(18, 18, 18);
+  padding-bottom: 6em;
+
+  // not clickable
+  -webkit-user-select: none; /* Chrome all / Safari all */
+  -moz-user-select: none; /* Firefox all */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none;
+  cursor: default;
+}

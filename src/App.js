@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { Routes, Route } from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import QuotifyPageHome from "./pages/home/home";
+import QuotifyMainCreate from "./pages/create/create";
+import QuotifyPageLibrary from "./pages/library/library";
+import LikedPageQuotify from "./pages/liked/liked";
+import ListPageQuotify from "./pages/list/list";
+import QuotifyPageAccount from "./pages/account/account";
+
+const App = () => (
+  <div>
+    <Routes>
+      <Route path="/" element={<QuotifyPageHome />} />
+      <Route path="/create" element={<QuotifyMainCreate />} />
+      <Route path="/library" element={<QuotifyPageLibrary />} />
+      <Route path="/liked" element={<LikedPageQuotify />} />
+      <Route path="/list" element={<ListPageQuotify />} />
+      <Route path="/account" element={<QuotifyPageAccount />} />
+    </Routes>
+  </div>
+);
 
 export default App;
